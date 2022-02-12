@@ -20,10 +20,10 @@ let Navbar = {
                             <a class="navbar-item" href="#/">
                                 Home
                             </a>
-                            <a class="navbar-item" href="/#/about">
+                            <a class="navbar-item" href="#/about">
                                 About
                             </a>
-                            <a class="navbar-item" href="/#/secret">
+                            <a class="navbar-item" href="#/secret">
                                 Secret
                             </a>
                         </div>
