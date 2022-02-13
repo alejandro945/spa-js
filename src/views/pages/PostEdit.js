@@ -1,4 +1,4 @@
-import Utils        from './../../services/Utils.js'
+import Utils        from '../../services/Utils.js'
 
 let getPost = async (id) => {
     const options = {
@@ -17,7 +17,7 @@ let getPost = async (id) => {
    }
 }
 
-let PostShow = {
+let PostEdit = {
 
     render : async () => {
         let request = Utils.parseRequestURL()
@@ -29,11 +29,13 @@ let PostShow = {
                 <p> Post Title : ${post.title} </p>
                 <p> Post Content : ${post.content} </p>
                 <p> Post Author : ${post.name} </p>
+                <a href = "#/home">Actualizar</a>
             </section>
+            
         `
     }
     , after_render: async () => {
     }
 }
 
-export default PostShow;
+export default PostEdit;

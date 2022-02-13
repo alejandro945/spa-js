@@ -3,7 +3,7 @@
 import Home         from './views/pages/Home.js'
 import About        from './views/pages/About.js'
 import Error404     from './views/pages/Error404.js'
-import PostShow     from './views/pages/PostShow.js'
+import PostShow     from './views/pages/PostEdit.js'
 import Register     from './views/pages/Register.js'
 
 import Navbar       from './views/components/Navbar.js'
