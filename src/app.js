@@ -14,11 +14,11 @@ import Login        from './views/pages/Login.js';
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
-    '/'             : Home
+    '/home'         : Home
     , '/about'      : About
     , '/p/:id'      : PostShow
     , '/register'   : Register
-    , '/login'      : Login
+    , '/'           : Login
 };
 
 

@@ -42,6 +42,9 @@ let Login = {
             } 
             else {
                 alert(`User with email ${email.value} was successfully login`)
+                
+                location.replace('#/home');
+                
             }  
         })
     }

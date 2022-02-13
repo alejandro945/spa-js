@@ -41,8 +41,7 @@ let Home = {
                             </div>
                         </div>
                         <footer class="card-footer">
-                            <a href="#/p/${post.id}" class="card-footer-item">Detail</a>
-                            <a href="#" class="card-footer-item">Edit</a>
+                            <a href="#/p/${post.id}" class="card-footer-item">Edit</a>
                         </footer>
                     </div> 
                  `
