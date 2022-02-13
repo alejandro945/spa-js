@@ -1,4 +1,4 @@
-let login = { 
+let Login = { 
 
     render: async () => {
         return /*html*/`
@@ -33,9 +33,10 @@ let login = {
         `
     },
     after_render: async () => {
-        document.getElementById("register_submit_btn").addEventListener ("click",  () => {
+        document.getElementById("sing-in").addEventListener ("click",  () => {
             let email       = document.getElementById("email_input");
             let pass        = document.getElementById("pass_input");
+            console.log(pass.value);
             if (email.value =='' | pass.value == '') {
                 alert (`The fields cannot be empty`)
             } 
@@ -45,3 +46,5 @@ let login = {
         })
     }
 }
+
+export default Login;
