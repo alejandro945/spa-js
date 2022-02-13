@@ -17,6 +17,7 @@ const routes = {
     , '/about'      : About
     , '/p/:id'      : PostShow
     , '/register'   : Register
+    , '/login'      : Login
 };
 
 
