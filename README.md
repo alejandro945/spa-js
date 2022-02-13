@@ -31,15 +31,18 @@ View Details of Articles
 * Project description
 * Read me
 
-## Login
+## Sign In
 * <b>Principle Screen</b> <br><br>
+![ScreenShot](https://github.com/alejandro945/spa-js/blob/master/static/sign_in.png)<br><br>
 
 ## Sing Up
+![ScreenShot](https://github.com/alejandro945/spa-js/blob/master/static/sign_up.png)<br><br>
 
 ## Articles
+![ScreenShot](https://github.com/alejandro945/spa-js/blob/master/static/dash.png)<br><br>
 
 ## Details of Articles
-
+![ScreenShot](https://github.com/alejandro945/spa-js/blob/master/static/edit.png)<br><br>
 
 ## Operation System 📢
 

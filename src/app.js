@@ -246,7 +246,7 @@ let PostEdit = {
                 <p> Post Title : ${post.title} </p>
                 <p> Post Content : ${post.content} </p>
                 <p> Post Author : ${post.name} </p>
-                <a href = "#/home">Actualizar</a>
+                <a href = "#/home">Update</a>
             </section>
         `
     }
